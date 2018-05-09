@@ -1,0 +1,7 @@
+#python语法学习1
+#input函数返回值默认是str，需要使用int()转为int类型
+a=int(input('pls input the the number:'))
+if a>10:
+    print("a =",a)
+else:
+    print('a<=10')
